@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
 
     <style>
       html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
@@ -30,9 +32,17 @@
         <!-- Left Column -->
         <div class="w3-third">
   
-          <div class="w3-white w3-text-grey w3-card-4">
+          <div id="leftColumn" class="w3-white w3-text-grey w3-card-4">
             <!-- @falvojr: This container has been modified to not use a profile picture. -->
             <div class="w3-container">
+              <div class="switchDarkMode">
+                <input type="checkbox" name="change-theme" id="change-theme">
+                <span id="textDarkMode" class="">Dark mode: </span>
+                <label for="change-theme" class="w3-light-grey" id="labelDarkMode">
+                  <i class="bi bi-sun"></i>
+                  <i class="bi bi-moon"></i>
+                </label>
+              </div>
               <h2>Vitor Hugo Kuhn Zary</h2>
             </div>
             <div class="w3-container">
@@ -88,28 +98,28 @@
         <!-- Right Column -->
         <div class="w3-twothird">
     
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Sobre</h2>
+          <div id="sobreCard" class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 id="sobreCardTitle" class="w3-text-grey w3-padding-16"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Sobre</h2>
             <p>Atualmente no último período da graduação em Bacharelado em Sistemas de Informação. Tenho vontade de ser desenvolvedor full stack na linguagem PHP. Tenho um projeto realizado usando a linguagem PHP e estou buscando me especializar mais na linguagem.</p>
           </div>
 
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
+          <div id="experienciaCard" class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 id="experienciaCardTitle" class="w3-text-grey w3-padding-16">
               <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Experiências
             </h2>
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Basis Tecnologia</b></h5>
+              <h5 id="subtitleExperiencias" class="w3-opacity subtitle"><b>Basis Tecnologia</b></h5>
               <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - <span class="w3-tag w3-deep-purple w3-round">2021</span></h6>
               <p>Desenvolvedor Java, atuando desenvolvendo um sistema hospitalar utilizando tecnologias como angular, spring framework, docker, PostgreeSQL.</p>
             </div>
           </div>
   
-          <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16">
+          <div id="educacaoCard" class="w3-container w3-card w3-white">
+            <h2 id="educacaoCardTitle" class="w3-text-grey w3-padding-16">
               <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Educação
             </h2>
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
+              <h5 id="subtitleEducacao1" class="w3-opacity subtitle"><b>Digital Innovation One (DIO)</b></h5>
               <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março 2021 - <span class="w3-tag w3-deep-purple w3-round">Atual</span></h6>
               <p>
                 Maior plataforma de educação aberta em TI da América Latina, com mais 1 milhão de usuários. 
@@ -125,14 +135,14 @@
               <hr>
             </div>
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Instituto Federal do Norte de Minas Gerais (IFNMG)</b></h5>
+              <h5 id="subtitleEducacao2" class="w3-opacity"><b>Instituto Federal do Norte de Minas Gerais (IFNMG)</b></h5>
               <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Fevereiro 2018 - Dezembro 2023</h6>
               <p>Graduação em Bacharelado em Sistemas de Informação - 8° período.</p>
             </div>
           </div>
 
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
+          <div id="projetosCard" class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 id="projetosCardTitle" class="w3-text-grey w3-padding-16">
               <i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Projetos
             </h2>
             <div class="w3-container">
@@ -167,6 +177,7 @@
       <a href="https://www.linkedin.com/in/vitorzary/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </footer>
+    <script src="script.js"></script>
   
   </body>
 

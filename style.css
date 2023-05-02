@@ -1,0 +1,49 @@
+body{
+    transition: 0.3s;
+}
+
+.switchDarkMode {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: black;
+    margin-top: 1rem;
+}
+
+#textDarkMode {
+    padding: .5rem;
+}
+
+#change-theme {
+    display: none;
+}
+
+.bi {
+    font-size: 1.3rem;
+}
+
+.bi-moon{
+    display: none;
+}
+
+#labelDarkMode {
+    padding: .7rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* Dark Theme */
+.dark,
+.dark header {
+    background-color: #263238;
+    color: white;
+}
+
+.dark .bi-sun {
+    display: none;
+}
+
+.dark .bi-moon {
+    display: block;
+}
