@@ -1,3 +1,3 @@
-# Curriculum Vitae (CV) Online
+# Currículo Online com Dark Mode (Vitor Hugo Kuhn Zary)
 
-Referência W3C: https://www.w3schools.com/howto/howto_website_create_resume.asp
+## Currículo como base o currículo do falvojr com melhorias, espero que gostem! :)
