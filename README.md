@@ -1,5 +1,5 @@
 # Currículo Online com Dark Mode (Vitor Hugo Kuhn Zary)
-Currículo como base o currículo do falvojr com melhorias da minha parte, como comentando eu adicionei a funcionalidade do dark mode no projeto.
+Meu currículo como base o currículo do falvojr com melhorias da minha parte, como comentando eu adicionei a funcionalidade do dark mode no projeto.
 
 ## Preview no git hub pages
 https://vitorzary.github.io/curriculo-vitor-zary/
