@@ -2,7 +2,7 @@
 Meu currículo como base o currículo do falvojr com melhorias da minha parte, como comentando eu adicionei a funcionalidade do dark mode no projeto.
 
 ## Preview no git hub pages
-https://vitorzary.github.io/curriculo-vitor-zary/
+https://vitorzary.github.io/VitorZary/
 
 ## Segue algumas capturas de tela do projeto
 
