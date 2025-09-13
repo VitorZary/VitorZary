@@ -32,6 +32,16 @@ body{
     cursor: pointer;
 }
 
+#listaDeCertificados{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#rodape a {
+    text-decoration: none;
+}
+
 
 /* Dark Theme */
 .dark,
@@ -47,3 +57,4 @@ body{
 .dark .bi-moon {
     display: block;
 }
+
